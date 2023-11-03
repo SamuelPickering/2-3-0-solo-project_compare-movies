@@ -1,0 +1,48 @@
+main {
+  display: flex;
+  flex-direction: column;
+  background-color: #242424;
+}
+.movies {
+  display: flex;
+  justify-content: space-around;
+}
+form {
+  /* gap: 100px 0px; */
+  border: 1px solid white;
+  padding: 10;
+}
+.form-group {
+  margin-top: 10px;
+}
+/* .form-container {
+ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+} */
+.form-container {
+  border: 2px none white;
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  justify-content: center;
+  align-items: center; /* Center form horizontally */
+  margin-top: 20px; /* Add margin to separate the form from the top */
+}
+.movies-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 55%;
+  max-height: 510px;
+  overflow-y: scroll;
+}
+
+.card p {
+  color: aqua;
+  font-size: 12px;
+ }
+
+label {
+  display: inline-block;
+}
